@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.co m/css?family=Poppins:wght@300;400;50 0;600;700;800;900&display=swap');*
+
+{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', 'sans-serif';
+}
+
+header {
+position: static;
+top: 0;
+left: 0;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: brown;
+z-index: 100;
+}
+
+.logo {
+    font-size: large;
+    color:aqua
+}
+
+.logo span {
+    color:aquamarine
+}
+
+.navigation{
+    margin-left: -300px;
+}
+
+.navigation a{
+    font-size: medium;
+    color: rgb(255, 168, 168);
+    margin-right: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: .10s;
+}
+
+.navigation a:hover {
+    color: beige
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: url(WhatsApp\ Image\ 2025-04-30\ at\ 10.27.16\ AM.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.content {
+    max-width: 500px;
+    color:rgb(255, 213, 174)
+}
+
+.content h2 {
+    font-size:48px;
+}
+
+.content h2 span{
+    color:rgb(17, 19, 19);
+}
+
+.content h4 {
+    font-size: 34px;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+.btn-group a{
+    color:rgb(247, 242, 241);
+    text-decoration: none;
+    background-color: rgb(241, 139, 139);
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 168, 168);
+}
+
+.btn-group a:hover:nth-child(1) {
+    color:rgb(245, 192, 167);
+    background: transparent;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: rgb(245, 192, 167);
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: none;
+    background: transparent;
+    margin-left: 1px;
+    padding: 10px 30px;
+}
+
+.social-icons img {
+  width: 40px; /* ukuran ikon */
+  height: 40px;
+  margin-left: 7px;
+  margin-right: 2px;
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2); /* membesar saat hover */
+}
+
+
+.social-icons a {
+    display: inline-table;
+    background: transparent;
+    padding : 0px;
+    height: 0px;
+    text-align: center;
+    color: none;
+    border: none;
+    outline: none;
+}
